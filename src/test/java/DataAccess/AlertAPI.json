@@ -1,0 +1,74 @@
+{
+
+"URI":
+{
+ "SignIn":"/authmgr/v1.0/Authentication/SignIn",
+ "UpdatePassword":"/authmgr/v1.0/Authentication/UpdatePassword",
+ "CreateIncident":"/incmgmt/v1.0/Incident/Add"
+ },
+ 
+ "CreateHardLockDown":
+ {
+ 
+ "Teacher":
+ {
+ "tenantId": "0f5743bd-a0ce-4349-8068-97a8b8fefd63",
+ "startDateTime": "2021-07-17T16:15:53.963Z",
+ "incType": 2,
+ "subCategory": "HLCK",
+ "summary": "Test API 4",
+ "initiatedUserID": 100077700000095,
+ "incStatus": 0,
+ "incLocationSnapshot": 
+ {
+ "propertyID": "2deed19b-c45d-46e1-8757-1992560f860a"
+ },
+ "isLEAInvolved": 0,
+ "createdBy": 100077700000095, 
+ "createdDttmUTC": "2021-07-17T16:15:53.963Z",
+ "overrideLatLongValidation": true
+ }
+ 
+ },
+
+    "SysAdmin":
+      {
+        "userName":"sysadmin@test.com",
+        "password":"Phoenix",
+        "emailId": "sysadmin@test.com",
+        "dataBase":"Sandbox"
+      },
+
+      "TenantAdmin":
+        {
+          "userName":"tenanadmin@test.com",
+          "password":"Phoenix",
+          "emailId": "tenanadmin@test.com",
+          "dataBase":"Sandbox"
+        },
+
+        "PropertyAdmin":
+          {
+            "userName":"propertyadmin@test.com",
+            "password":"Phoenix",
+            "emailId": "propertyadmin@test.com",
+            "dataBase":"Sandbox"
+          },
+
+          "EcContact":
+            {
+              "userName":"eccontact@test.com",
+              "password":"Phoenix",
+              "emailId": "eccontact@test.com",
+              "dataBase":"Sandbox"
+            },
+
+            "Teacher":
+              {
+                "userName":"teacher@test.com",
+                "password":"Phoenix",
+                "emailId": "teacher@test.com",
+                "dataBase":"Sandbox"
+              }
+
+}
